@@ -42,7 +42,7 @@ const Carousel = () => {
 
   return (
     <div className="md:grid md:grid-cols-2 md:h-[280px] lg:h-[350px]">
-      <div className="h-[200px] sm:h-[300px] md:h-[200px] lg:h-[280px] xl:w-[600px] xl:ms-auto mt-4 xl:relative group">
+      <div className="h-[200px] sm:h-[300px] md:h-[200px] lg:h-[280px] xl:w-[600px] xl:ms-auto mt-4 group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className="w-full h-full rounded-t-2xl bg-cover duration-500"

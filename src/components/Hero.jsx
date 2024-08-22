@@ -4,7 +4,10 @@ import Me from "../assets/me.png";
 
 export const Hero = () => {
   return (
-    <div className="md:grid md:grid-cols-2 items-center justify-center bg-primary text-white rounded-[2.5rem] md:rounded-[3.5rem] mt-[120px] mx-4 xl:mx-24 p-10 lg:p-24">
+    <div
+      id="home"
+      className="md:grid md:grid-cols-2 items-center justify-center bg-primary text-white rounded-[2.5rem] md:rounded-[3.5rem] mt-[120px] mx-4 xl:mx-24 p-10 lg:p-24"
+    >
       <div className="">
         <h2 className="text-2xl lg:text-3xl font-medium font-tt-firs-neue">
           Hi, I'm Theo.

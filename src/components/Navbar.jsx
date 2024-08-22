@@ -16,17 +16,16 @@ const Navbar = () => {
         <div className="flex items-center">
           <img src={Logo} alt="logo" className="w-[38px]" />
           <h1 className="text-2xl font-bold text-primary font-tt-firs-neue ml-2">
-            thofolio
+            <a href="#home">thofolio</a>
           </h1>
         </div>
         <ul className=" hidden md:flex text-secondary font-medium gap-12 font-tt-firs-neue ">
           <li className="p-4 hover:text-primary hover:font-bold">
-            UI/UX Design
+            <a href="#uiuxdesign">UI/UX Design</a>
           </li>
           <li className="p-4 hover:text-primary hover:font-bold">
-            Web Developer
+            <a href="#webdeveloper">Web Developer</a>
           </li>
-          <li className="p-4 hover:text-primary hover:font-bold">Contact</li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
           <AiOutlineMenu size={30} />
@@ -53,13 +52,10 @@ const Navbar = () => {
           </div>
           <ul className="p-4 font-tt-firs-neue text-secondary font-medium mt-[70px]">
             <li className="p-2 hover:text-primary hover:font-bold border-b border-gray-300">
-              UI/UX Design
+              <a href="#uiuxdesign">UI/UX Design</a>
             </li>
             <li className="p-2 hover:text-primary hover:font-bold border-b border-gray-300">
-              Web Developer
-            </li>
-            <li className="p-2 hover:text-primary hover:font-bold border-b border-gray-300">
-              Contacts
+              <a href="#webdeveloper">Web Developer</a>
             </li>
           </ul>
         </div>
