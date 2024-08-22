@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#54ea54",
+        primary: "#355699",
+        secondary: "#181A1B",
+        gray: "#EEF1F7",
       },
       fontFamily: {
         "tt-firs-neue": ['"TT Firs Neue"', "sans-serif"],
